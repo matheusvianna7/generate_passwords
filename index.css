@@ -4,13 +4,20 @@ body {
     color: white;
 }
 
+.container{
+    border: 2px solid #10B981;
+    max-width: 600px;
+    width: 90%;
+    margin: 0 auto;
+}
+
 #title{
     font-family: 'Karla', sans-serif;
     font-weight: 800;
     font-size: 40px;
     line-height: 40px;
     width: 360px;
-    margin: 100px 145px 10px 50px
+    margin: 50px 50px 10px
 }
 
 #subtitle{
@@ -66,6 +73,11 @@ label{
     line-height: 28px;
 }
 
+#psw-length::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+
+}
+
 #psw-length{
     margin: 0px 10px;
     color: #D5D4D8;
@@ -78,11 +90,11 @@ label{
 
 #line{
     border: 1px solid #2F3E53;
-    width: 445px;
+    width: 73%;
     margin: 35px 50px;
 }
 
-#container{
+#container-slot{
     display: flex;
     margin: 35px 50px;
 }
